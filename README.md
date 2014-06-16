@@ -1,7 +1,7 @@
 pysettings
 ==========
 
-Simple Settings component which can be configured under multiple environment for any python project
+Simple Settings template which can be configured under multiple environment for any python project
 
 Installation
 ====
@@ -49,7 +49,7 @@ Edit setting file myenv1.py:
 
 In your py file, eg myapp.py:
 
-    from settings.settings import settings
+    from settings import settings
 
     print setting.mykey1
 

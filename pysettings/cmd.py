@@ -49,7 +49,7 @@ settings = importlib.import_module('..'+default_env, __name__).Settings
     """.format(default_envname=default_envname))
 
             with open(os.path.join(dir_name, "__init__.py"), "a+") as f:
-                f.write("")
+                f.write("from .settings import settings")
 
 
 

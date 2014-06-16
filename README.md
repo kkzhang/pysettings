@@ -1,7 +1,7 @@
 pysettings
 ==========
 
-Settings component like DJANGO/FLASK which can be configured under multiple environment
+Simple Settings component which can be configured under multiple environment for any python project
 
 Installation
 ====
@@ -29,13 +29,13 @@ The first environment name is set to be default. You can set it by --default
 
 `pysettings` file structure:
 
-Your project
-    settings
+    Your project
+      settings
         myenv1.py
         myenv2.py
-        settings.py
+      settings.py
 
-    myapp.py
+--myapp.py
 
 `SettingBase` in settings.py is your default setting for all environments. It is overridden by  <current_env>.py
 

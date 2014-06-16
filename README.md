@@ -33,11 +33,10 @@ The first environment name is set to be default. You can set it by --default
       settings
         myenv1.py
         myenv2.py
-      settings.py
+        settings.py
+      myapp.py
 
---myapp.py
-
-`SettingBase` in settings.py is your default setting for all environments. It is overridden by  <current_env>.py
+`SettingBase` in settings.py is your default setting for all environments. It is overridden by your current_env
 
 Usage
 ====
